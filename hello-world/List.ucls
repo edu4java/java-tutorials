@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="java.util.List" project="concepts" 
+    file="C:/Program Files/Java/jdk1.8.0_05/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="26" width="97" x="196" y="162"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="java.util.ArrayList" project="concepts" 
+    file="C:/Program Files/Java/jdk1.8.0_05/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="33" width="122" x="110" y="226"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="java.util.LinkedList" project="concepts" 
+    file="C:/Program Files/Java/jdk1.8.0_05/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="33" width="126" x="256" y="225"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="4">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    accessors="true" visibility="false">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="true" package="false" protected="true" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>
