@@ -3,29 +3,29 @@
   associations="true" dependencies="false" nesting-relationships="true">  
   <interface id="1" language="java" name="java.util.List" project="concepts" 
     file="C:/Program Files/Java/jdk1.8.0_05/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
-    <position height="26" width="97" x="196" y="162"/>    
+    <position height="669" width="308" x="617" y="62"/>    
     <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
       visibility="false">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
-      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </interface>  
   <class id="2" language="java" name="java.util.ArrayList" project="concepts" 
     file="C:/Program Files/Java/jdk1.8.0_05/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
-    <position height="33" width="122" x="110" y="226"/>    
+    <position height="721" width="208" x="398" y="12"/>    
     <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
       visibility="false">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
-      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+      <operations public="true" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
   <class id="3" language="java" name="java.util.LinkedList" project="concepts" 
     file="C:/Program Files/Java/jdk1.8.0_05/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
-    <position height="33" width="126" x="256" y="225"/>    
+    <position height="697" width="131" x="45" y="45"/>    
     <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" accessors="true" 
       visibility="false">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
-      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
   <realization id="4">    
