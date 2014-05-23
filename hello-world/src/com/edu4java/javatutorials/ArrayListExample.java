@@ -15,7 +15,7 @@ public class ArrayListExample {
 				nombres.add(palaras);
 			}
 		}
-		nombres.sort(null);
+//		nombres.sort(null);
 		for (String nombre : nombres) {
 			System.out.println(nombre + " ");
 		}
