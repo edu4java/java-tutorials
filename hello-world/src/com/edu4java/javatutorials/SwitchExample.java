@@ -3,31 +3,25 @@ import javax.swing.JOptionPane;
 
 public class SwitchExample {
 	public static void main(String[] args) {
+		String daysLeft = "";
+		String weekDay = JOptionPane.showInputDialog("Ingresar el día de la semana (en ingles)");
 
-		StringBuilder menu = new StringBuilder("Elija una opción: 1, 2, 3 o 4 \n");
-		for (int i = 1; i <= 4; i++) {
-			menu.append(i).append(" opción ").append(i).append("\n");
+		switch (weekDay.toUpperCase()) {
+		case "SUNDAY":
+			daysLeft = daysLeft + "Sunday ";
+		case "MONDAY":
+			daysLeft = daysLeft + "Monday ";
+		case "TUESDAY":
+			daysLeft = daysLeft + "Tuesday ";
+		case "WEDNESDAY":
+			daysLeft = daysLeft + "Wednesday ";
+		case "THURSDAY":
+			daysLeft = daysLeft + "Thursday ";
+		case "FRIDAY":
+			daysLeft = daysLeft + "Friday ";
+		case "SATERDAY":
+			daysLeft = daysLeft + "Saturday ";
 		}
-
-		String option = JOptionPane.showInputDialog(menu.toString());
-		switch (option+"") {
-		case "1":
-			JOptionPane.showMessageDialog(null, "Felicitaciones, ha elejido la opcion 1");
-			break;
-		case "2":
-			JOptionPane.showMessageDialog(null, "Felicitaciones, ha elejido la opcion 2");
-			break;
-		case "3":
-			JOptionPane.showMessageDialog(null, "Felicitaciones, ha elejido la opcion 3");
-			break;
-		case "4":
-			JOptionPane.showMessageDialog(null, "Felicitaciones, ha elejido la opcion 4");
-			break;
-		default:
-			JOptionPane.showMessageDialog(null, option + " no es una opcion valida");
-			break;
-
-		}
+		JOptionPane.showMessageDialog(null, "Quedan \"" + daysLeft + "\" para terminar la semana");
 	}
-
 }

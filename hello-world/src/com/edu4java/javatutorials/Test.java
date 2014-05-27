@@ -11,6 +11,9 @@ public class Test {
 			System.out.print(item + " ");
 			Thread.sleep(10000);
 		}
-		
+		String s = "Hello";
+		s = s + "edu";
 	}
+
+
 }
