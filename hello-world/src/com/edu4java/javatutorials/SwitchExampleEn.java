@@ -1,10 +1,10 @@
 package com.edu4java.javatutorials;
 import javax.swing.JOptionPane;
 
-public class SwitchExample {
+public class SwitchExampleEn {
 	public static void main(String[] args) {
 		String daysLeft = "";
-		String weekDay = JOptionPane.showInputDialog("Ingresar el día de la semana (en ingles)");
+		String weekDay = JOptionPane.showInputDialog("Enter the day of the week");
 
 		switch (weekDay.toUpperCase()) {
 		case "SUNDAY":
@@ -19,9 +19,9 @@ public class SwitchExample {
 			daysLeft = daysLeft + "Thursday ";
 		case "FRIDAY":
 			daysLeft = daysLeft + "Friday ";
-		case "SATERDAY":
+		case "SATURDAY":
 			daysLeft = daysLeft + "Saturday ";
 		}
-		JOptionPane.showMessageDialog(null, "Quedan \"" + daysLeft + "\" para terminar la semana");
+		JOptionPane.showMessageDialog(null, "We have \"" + daysLeft + "\" to end the week");
 	}
 }
