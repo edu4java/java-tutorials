@@ -10,11 +10,11 @@ public class StringBuilderExample {
 		long timeSpend = (System.currentTimeMillis() - timeStart);
 		System.out.println("end genWithString. Time:" + timeSpend+" Milliseconds");
 
-		System.out.println("start genWithString");
+		System.out.println("start genWithStringBuilder");
 		timeStart = System.currentTimeMillis();
 		String s2 = genWithStringBuilder();
 		timeSpend = (System.currentTimeMillis() - timeStart);
-		System.out.println("end genWithString. Time:" + timeSpend+" Milliseconds");
+		System.out.println("end genWithStringBuilder. Time:" + timeSpend+" Milliseconds");
 		
 		System.out.println("s1.equals(s2)="+s1.equals(s2));
 	}
@@ -35,3 +35,4 @@ public class StringBuilderExample {
 		return s;
 	}
 }
+
