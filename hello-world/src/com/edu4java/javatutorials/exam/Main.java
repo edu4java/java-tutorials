@@ -3,8 +3,6 @@ package com.edu4java.javatutorials.exam;
 import java.util.ArrayList;
 import java.util.List;
 
-import jdk.nashorn.internal.parser.JSONParser;
-
 public class Main {
 
 	public static void main(String[] args) {
